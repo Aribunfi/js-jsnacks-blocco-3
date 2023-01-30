@@ -9,11 +9,12 @@ n = [];
 console.log(x);
 
 
-const userNumber = prompt("Scrivi un numero");
+let userNumber = prompt("Scrivi un numero");
 
 for (i = 0; i < 50; i++) {
     n.push(userNumber);
     console.log(userNumber);
-
+    userNumber = prompt("Scrivi un numero");
+    n.push(userNumber);
 
 }
