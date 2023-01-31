@@ -12,9 +12,8 @@ console.log(x);
 let userNumber = prompt("Scrivi un numero");
 
 for (i = 0; i < 50; i++) {
-    n.push(userNumber);
-    console.log(userNumber);
+    
     userNumber = prompt("Scrivi un numero");
-    n.push(userNumber);
-
+    
+    console.log('Il valore di i: ' + n);
 }
